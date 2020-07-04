@@ -1,0 +1,17 @@
+#selected-products-div{
+  position: fixed;
+  bottom: 100px;
+  left: 1rem;
+  right: 1rem;
+  z-index:500;
+}
+
+.ui-listview .ui-li-has-thumb>img:first-child, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb{
+  position: relative;
+}
+
+.ui-listview>li.ui-li-has-alt>a.ui-btn{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
